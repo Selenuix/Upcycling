@@ -4433,6 +4433,7 @@
 					background-color: #9b59b6;
 				}
 
+				
 		@media screen and (max-width: 1280px) {
 
 			.post .content {
@@ -4445,6 +4446,236 @@
 				}
 
 		}
+
+		.post.style4 {
+			background-color: #fff;
+			color: #444;
+		}
+
+			.post.style4 input, .post.style4 select, .post.style4 textarea {
+				color: #4183D7;
+			}
+
+			.post.style4 a {
+				color: #4183D7;
+			}
+
+			.post.style4 strong, .post.style4 b {
+				color: #4183D7;
+			}
+
+			.post.style4 h1, .post.style4 h2, .post.style4 h3, .post.style4 h4, .post.style4 h5, .post.style4 h6 {
+				color: #4183D7;
+			}
+
+			.post.style4 blockquote {
+				border-left-color: rgba(144, 144, 144, 0.25);
+			}
+
+			.post.style4 code {
+				background: rgba(144, 144, 144, 0.075);
+				border-color: rgba(144, 144, 144, 0.25);
+			}
+
+			.post.style4 hr {
+				border-bottom-color: rgba(144, 144, 144, 0.25);
+			}
+
+			.post.style4 input[type="submit"],
+			.post.style4 input[type="reset"],
+			.post.style4 input[type="button"],
+			.post.style4 button,
+			.post.style4 .button {
+				background-color: #1abc9c;
+				color: #fff !important;
+			}
+
+				.post.style4 input[type="submit"]:hover,
+				.post.style4 input[type="reset"]:hover,
+				.post.style4 input[type="button"]:hover,
+				.post.style4 button:hover,
+				.post.style4 .button:hover {
+					background-color: #1dd2af;
+				}
+
+				.post.style4 input[type="submit"]:active,
+				.post.style4 input[type="reset"]:active,
+				.post.style4 input[type="button"]:active,
+				.post.style4 button:active,
+				.post.style4 .button:active {
+					background-color: #17a689;
+				}
+
+				.post.style4 input[type="submit"].alt,
+				.post.style4 input[type="reset"].alt,
+				.post.style4 input[type="button"].alt,
+				.post.style4 button.alt,
+				.post.style4 .button.alt {
+					background-color: transparent;
+					box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+					color: #4183D7 !important;
+				}
+
+					.post.style4 input[type="submit"].alt:hover,
+					.post.style4 input[type="reset"].alt:hover,
+					.post.style4 input[type="button"].alt:hover,
+					.post.style4 button.alt:hover,
+					.post.style4 .button.alt:hover {
+						background-color: rgba(144, 144, 144, 0.075);
+					}
+
+					.post.style4 input[type="submit"].alt:active,
+					.post.style4 input[type="reset"].alt:active,
+					.post.style4 input[type="button"].alt:active,
+					.post.style4 button.alt:active,
+					.post.style4 .button.alt:active {
+						background-color: rgba(144, 144, 144, 0.2);
+					}
+
+					.post.style4 input[type="submit"].alt.icon:before,
+					.post.style4 input[type="reset"].alt.icon:before,
+					.post.style4 input[type="button"].alt.icon:before,
+					.post.style4 button.alt.icon:before,
+					.post.style4 .button.alt.icon:before {
+						color: #bbb;
+					}
+
+				.post.style4 input[type="submit"].special,
+				.post.style4 input[type="reset"].special,
+				.post.style4 input[type="button"].special,
+				.post.style4 button.special,
+				.post.style4 .button.special {
+					background-color: #4183D7;
+					color: #fff !important;
+				}
+
+			.post.style4.invert {
+				background-color: #4183D7;
+				color: rgba(255, 255, 255, 0.75);
+			}
+
+				.post.style4.invert input, .post.style4.invert select, .post.style4.invert textarea {
+					color: #fff;
+				}
+
+				.post.style4.invert a {
+					color: #fff;
+				}
+
+				.post.style4.invert strong, .post.style4.invert b {
+					color: #fff;
+				}
+
+				.post.style4.invert h1, .post.style4.invert h2, .post.style4.invert h3, .post.style4.invert h4, .post.style4.invert h5, .post.style4.invert h6 {
+					color: #fff;
+				}
+
+				.post.style4.invert blockquote {
+					border-left-color: rgba(255, 255, 255, 0.25);
+				}
+
+				.post.style4.invert code {
+					background: rgba(255, 255, 255, 0.075);
+					border-color: rgba(255, 255, 255, 0.25);
+				}
+
+				.post.style4.invert hr {
+					border-bottom-color: rgba(255, 255, 255, 0.25);
+				}
+
+				.post.style4.invert input[type="submit"],
+				.post.style4.invert input[type="reset"],
+				.post.style4.invert input[type="button"],
+				.post.style4.invert button,
+				.post.style4.invert .button {
+					background-color: #1abc9c;
+					color: #fff !important;
+				}
+
+					.post.style4.invert input[type="submit"]:hover,
+					.post.style4.invert input[type="reset"]:hover,
+					.post.style4.invert input[type="button"]:hover,
+					.post.style4.invert button:hover,
+					.post.style4.invert .button:hover {
+						background-color: #1dd2af;
+					}
+
+					.post.style4.invert input[type="submit"]:active,
+					.post.style4.invert input[type="reset"]:active,
+					.post.style4.invert input[type="button"]:active,
+					.post.style4.invert button:active,
+					.post.style4.invert .button:active {
+						background-color: #17a689;
+					}
+
+					.post.style4.invert input[type="submit"].alt,
+					.post.style4.invert input[type="reset"].alt,
+					.post.style4.invert input[type="button"].alt,
+					.post.style4.invert button.alt,
+					.post.style4.invert .button.alt {
+						background-color: transparent;
+						box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+						color: #fff !important;
+					}
+
+						.post.style4.invert input[type="submit"].alt:hover,
+						.post.style4.invert input[type="reset"].alt:hover,
+						.post.style4.invert input[type="button"].alt:hover,
+						.post.style4.invert button.alt:hover,
+						.post.style4.invert .button.alt:hover {
+							background-color: rgba(255, 255, 255, 0.075);
+						}
+
+						.post.style4.invert input[type="submit"].alt:active,
+						.post.style4.invert input[type="reset"].alt:active,
+						.post.style4.invert input[type="button"].alt:active,
+						.post.style4.invert button.alt:active,
+						.post.style4.invert .button.alt:active {
+							background-color: rgba(255, 255, 255, 0.2);
+						}
+
+						.post.style4.invert input[type="submit"].alt.icon:before,
+						.post.style4.invert input[type="reset"].alt.icon:before,
+						.post.style4.invert input[type="button"].alt.icon:before,
+						.post.style4.invert button.alt.icon:before,
+						.post.style4.invert .button.alt.icon:before {
+							color: rgba(255, 255, 255, 0.5);
+						}
+
+					.post.style4.invert input[type="submit"].special,
+					.post.style4.invert input[type="reset"].special,
+					.post.style4.invert input[type="button"].special,
+					.post.style4.invert button.special,
+					.post.style4.invert .button.special {
+						background-color: #fff;
+						color: #4183D7 !important;
+					}
+
+				.post.style4.invert .content {
+					background: #4183D7;
+				}
+
+					.post.style4.invert .content header p {
+						color: rgba(255, 255, 255, 0.5);
+						border-top: 1px solid rgba(255, 255, 255, 0.25);
+						border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+					}
+
+					.post.style4.invert .content .postnav .prev, .post.style4.invert .content .postnav .next {
+						border: 1px solid rgba(255, 255, 255, 0.25);
+					}
+
+						.post.style4.invert .content .postnav .prev:hover, .post.style4.invert .content .postnav .next:hover {
+							background: rgba(255, 255, 255, 0.075);
+						}
+
+						.post.style4.invert .content .postnav .prev.disabled, .post.style4.invert .content .postnav .next.disabled {
+							color: rgba(255, 255, 255, 0.5);
+						}
+
+				.post.style4.invert .image {
+					background-color: #4183D7;
+				}
 
 		@media screen and (max-width: 980px) {
 
